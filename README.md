@@ -24,3 +24,10 @@ analyze it as above.
 
 
 The runtime complexity for the code implemented for converting a adjacent matrix into a adjacent list is $\Theta(|V^2|)$. This is because the code contains two for loops one that goes over each row and then other that goes over each element (column) of that row. Because we iterate over V vertices and does V iterations to find a edge, the runtime complexity can be determined by multiplying them as they are nested for loops, V * V resulting in $\Theta(|V^2|)$.
+
+references:
+
+Looked over the test code\
+https://www.geeksforgeeks.org/convert-adjacency-matrix-to-adjacency-list-representation-of-graph/\
+https://github.com/bradtraversy/traversy-js-challenges/blob/main/08-binary-trees-graphs/12-graph-implementation/graph-solution.js\
+graph-representations-swilso59-1
