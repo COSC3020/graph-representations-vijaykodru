@@ -20,3 +20,7 @@ most important part. Add your answer to this markdown file.
 
 Implement a function to convert an adjacency list to an adjacency matrix and
 analyze it as above.
+
+
+
+The runtime complexity for the code implemented for converting a adjacent matrix into a adjacent list is $\Theta(|V^2|)$. This is because the code contains two for loops one that goes over each row and then other that goes over each element (column) of that row. Because we iterate over V vertices and does V iterations to find a edge, the runtime complexity can be determined by multiplying them as they are nested for loops, V * V resulting in $\Theta(|V^2|)$.
