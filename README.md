@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/hFs1pb0z)
 # Graph Representations
 
 Implement a function that converts an adjacency matrix to an adjacency list for
@@ -19,3 +20,14 @@ most important part. Add your answer to this markdown file.
 
 Implement a function to convert an adjacency list to an adjacency matrix and
 analyze it as above.
+
+
+
+The runtime complexity for the code implemented for converting a adjacent matrix into a adjacent list is $\Theta(|V^2|)$. This is because the code contains two for loops one that goes over each row and then other that goes over each element (column) of that row. Because we iterate over V vertices and does V iterations to find a edge, the runtime complexity can be determined by multiplying them as they are nested for loops, V * V resulting in $\Theta(|V^2|)$.
+
+references:
+
+Looked over the test code\
+https://www.geeksforgeeks.org/convert-adjacency-matrix-to-adjacency-list-representation-of-graph/\
+https://github.com/bradtraversy/traversy-js-challenges/blob/main/08-binary-trees-graphs/12-graph-implementation/graph-solution.js\
+graph-representations-swilso59-1
